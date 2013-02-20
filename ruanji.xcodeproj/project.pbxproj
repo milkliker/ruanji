@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0558B0EB16D45C8500858512 /* fft4g.c in Sources */ = {isa = PBXBuildFile; fileRef = 0558B0E416D45C8500858512 /* fft4g.c */; };
+		0558B0EC16D45C8500858512 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0558B0E816D45C8500858512 /* MBProgressHUD.m */; };
+		0558B0ED16D45C8500858512 /* OouraFFT.m in Sources */ = {isa = PBXBuildFile; fileRef = 0558B0EA16D45C8500858512 /* OouraFFT.m */; };
+		0558B0F116D4635700858512 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0558B0F016D4635700858512 /* CoreMedia.framework */; };
 		05AF85DB16D43AB8009D6811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AF85DA16D43AB8009D6811 /* UIKit.framework */; };
 		05AF85DD16D43AB8009D6811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AF85DC16D43AB8009D6811 /* Foundation.framework */; };
 		05AF85DF16D43AB8009D6811 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AF85DE16D43AB8009D6811 /* CoreGraphics.framework */; };
@@ -18,9 +22,18 @@
 		05AF85F116D43AB8009D6811 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05AF85F016D43AB8009D6811 /* Default-568h@2x.png */; };
 		05AF85F416D43AB8009D6811 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AF85F216D43AB8009D6811 /* MainStoryboard.storyboard */; };
 		05AF85F716D43AB8009D6811 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AF85F616D43AB8009D6811 /* ViewController.m */; };
+		05AF85FE16D452F5009D6811 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AF85FD16D452F5009D6811 /* AVFoundation.framework */; };
+		05AF860016D45347009D6811 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AF85FF16D45347009D6811 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0558B0E416D45C8500858512 /* fft4g.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fft4g.c; path = ../fft4g.c; sourceTree = "<group>"; };
+		0558B0E516D45C8500858512 /* fft4g.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fft4g.h; path = ../fft4g.h; sourceTree = "<group>"; };
+		0558B0E716D45C8500858512 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0558B0E816D45C8500858512 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0558B0E916D45C8500858512 /* OouraFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OouraFFT.h; path = ../OouraFFT.h; sourceTree = "<group>"; };
+		0558B0EA16D45C8500858512 /* OouraFFT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OouraFFT.m; path = ../OouraFFT.m; sourceTree = "<group>"; };
+		0558B0F016D4635700858512 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		05AF85D716D43AB8009D6811 /* ruanji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ruanji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AF85DA16D43AB8009D6811 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05AF85DC16D43AB8009D6811 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +50,8 @@
 		05AF85F316D43AB8009D6811 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		05AF85F516D43AB8009D6811 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		05AF85F616D43AB8009D6811 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05AF85FD16D452F5009D6811 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		05AF85FF16D45347009D6811 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0558B0F116D4635700858512 /* CoreMedia.framework in Frameworks */,
+				05AF860016D45347009D6811 /* AudioToolbox.framework in Frameworks */,
+				05AF85FE16D452F5009D6811 /* AVFoundation.framework in Frameworks */,
 				05AF85DB16D43AB8009D6811 /* UIKit.framework in Frameworks */,
 				05AF85DD16D43AB8009D6811 /* Foundation.framework in Frameworks */,
 				05AF85DF16D43AB8009D6811 /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +71,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0558B0E616D45C8500858512 /* MBProgress */ = {
+			isa = PBXGroup;
+			children = (
+				0558B0E716D45C8500858512 /* MBProgressHUD.h */,
+				0558B0E816D45C8500858512 /* MBProgressHUD.m */,
+			);
+			name = MBProgress;
+			path = ../MBProgress;
+			sourceTree = "<group>";
+		};
+		0558B0EE16D45C9200858512 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				0558B0EF16D45CA500858512 /* fft */,
+				0558B0E616D45C8500858512 /* MBProgress */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		0558B0EF16D45CA500858512 /* fft */ = {
+			isa = PBXGroup;
+			children = (
+				0558B0E416D45C8500858512 /* fft4g.c */,
+				0558B0E516D45C8500858512 /* fft4g.h */,
+				0558B0E916D45C8500858512 /* OouraFFT.h */,
+				0558B0EA16D45C8500858512 /* OouraFFT.m */,
+			);
+			name = fft;
+			sourceTree = "<group>";
+		};
 		05AF85CE16D43AB8009D6811 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +121,9 @@
 		05AF85D916D43AB8009D6811 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0558B0F016D4635700858512 /* CoreMedia.framework */,
+				05AF85FF16D45347009D6811 /* AudioToolbox.framework */,
+				05AF85FD16D452F5009D6811 /* AVFoundation.framework */,
 				05AF85DA16D43AB8009D6811 /* UIKit.framework */,
 				05AF85DC16D43AB8009D6811 /* Foundation.framework */,
 				05AF85DE16D43AB8009D6811 /* CoreGraphics.framework */,
@@ -83,6 +134,7 @@
 		05AF85E016D43AB8009D6811 /* ruanji */ = {
 			isa = PBXGroup;
 			children = (
+				0558B0EE16D45C9200858512 /* Include */,
 				05AF85E916D43AB8009D6811 /* AppDelegate.h */,
 				05AF85EA16D43AB8009D6811 /* AppDelegate.m */,
 				05AF85F216D43AB8009D6811 /* MainStoryboard.storyboard */,
@@ -176,6 +228,9 @@
 				05AF85E716D43AB8009D6811 /* main.m in Sources */,
 				05AF85EB16D43AB8009D6811 /* AppDelegate.m in Sources */,
 				05AF85F716D43AB8009D6811 /* ViewController.m in Sources */,
+				0558B0EB16D45C8500858512 /* fft4g.c in Sources */,
+				0558B0EC16D45C8500858512 /* MBProgressHUD.m in Sources */,
+				0558B0ED16D45C8500858512 /* OouraFFT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +268,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jun zhao (DUJ37SAM9G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jun zhao (DUJ37SAM9G)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -228,6 +284,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "A54A91A8-43A6-427C-B41B-44BDFE1B45BC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A54A91A8-43A6-427C-B41B-44BDFE1B45BC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -244,7 +302,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jun zhao (DUJ37SAM9G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jun zhao (DUJ37SAM9G)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -252,6 +311,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "A54A91A8-43A6-427C-B41B-44BDFE1B45BC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A54A91A8-43A6-427C-B41B-44BDFE1B45BC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -260,10 +321,15 @@
 		05AF85FB16D43AB8009D6811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: jun zhao (DUJ37SAM9G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jun zhao (DUJ37SAM9G)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ruanji/ruanji-Prefix.pch";
 				INFOPLIST_FILE = "ruanji/ruanji-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A54A91A8-43A6-427C-B41B-44BDFE1B45BC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A54A91A8-43A6-427C-B41B-44BDFE1B45BC";
+				SDKROOT = iphoneos6.1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -271,10 +337,14 @@
 		05AF85FC16D43AB8009D6811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: jun zhao (DUJ37SAM9G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jun zhao (DUJ37SAM9G)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ruanji/ruanji-Prefix.pch";
 				INFOPLIST_FILE = "ruanji/ruanji-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A54A91A8-43A6-427C-B41B-44BDFE1B45BC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A54A91A8-43A6-427C-B41B-44BDFE1B45BC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +368,7 @@
 				05AF85FC16D43AB8009D6811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
